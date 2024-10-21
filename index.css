@@ -1,0 +1,71 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.can_img{
+    height: 100%;
+    width: 100%;
+}
+.caintainer div{
+    background-color: aqua;
+    padding: 1px;
+    /* margin: 5px; */
+}
+.caintainer{
+    border: 2px solid;
+    display: grid;
+    grid-template-areas: 
+    " img1 img2 "
+    " img3 img2 "
+    " img3 img4 "
+    " img5 img4 "
+    ;
+}
+.img1{
+    grid-area: img1;
+    height: 50vh;
+    /* width: 50vh; */
+}
+.img2{
+    grid-area: img2;
+    /* height: 35vh; */
+    
+}
+.img3{
+    grid-area: img3;
+    
+}
+.img4{
+    grid-area: img4;
+    
+}
+.img5{
+    grid-area: img5;
+}
+.sec2_sub1{
+    height: fit-content;
+    width: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 35px;
+    width: 80%;
+    gap: 10px;
+}
+.button{
+    color: white;
+     background-color: rgb(95, 89, 89); 
+     border: none;
+}
+.button:hover{
+    color: black;
+    background-color: rgb(223, 252, 253);
+}
